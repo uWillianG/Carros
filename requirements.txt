@@ -13,7 +13,7 @@ idna==3.10
 jiter==0.10.0
 openai==1.81.0
 pillow==11.2.1
-psycopg2==2.9.10
+psycopg2-binary==2.9.10
 pydantic==2.11.4
 pydantic_core==2.33.2
 python-dotenv==1.1.0
