@@ -3,7 +3,7 @@ from dotenv import load_dotenv, find_dotenv
 
 _ = load_dotenv(find_dotenv())
 
-client = openai.Client()
+client = OpenAi()
 
 def get_car_ai_bio(model, brand, year):
     message = ''''
