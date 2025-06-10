@@ -1,9 +1,9 @@
 import openai
-#from dotenv import load_dotenv, find_dotenv
+from dotenv import load_dotenv, find_dotenv
 
-#_ = load_dotenv(find_dotenv())
+_ = load_dotenv(find_dotenv())
 
-client = openai.Client(OPENAI_API_KEY = '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')
+client = openai.Client()
 
 def get_car_ai_bio(model, brand, year):
     message = ''''
